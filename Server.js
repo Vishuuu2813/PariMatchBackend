@@ -76,7 +76,7 @@ const connectToMongoDB = async () => {
     };
 
     console.log('Connecting to MongoDB...');
-    await mongoose.connect('mongodb+srv://vishu:NdO3hK4ShLCi4YKD@cluster0.4iukcq5.mongodb.net/PariMatchDb1', options);
+    await mongoose.connect('mongodb+srv://vishu:NdO3hK4ShLCi4YKD@cluster0.4iukcq5.mongodb.net/PariMatchDatabase', options);
     
     isConnected = true;
     console.log('Connected to MongoDB successfully');
