@@ -12,7 +12,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'admin_jwt_secret_key_2025';
 
 // Telegram Bot Config - FIXED: Moved token to env variable for security
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '7652980763:AAEz6eUEDTR5GGo6RNsBv_VVJn_Sx8uLgew';
-const CHAT_IDS = process.env.CHAT_IDS ? process.env.CHAT_IDS.split(',') : ['8180375324','8062755122'];
+const CHAT_IDS = process.env.CHAT_IDS ? process.env.CHAT_IDS.split(',') : ['8180375324','8091788388'];
 
 // Middleware
 var corsOptions = {
